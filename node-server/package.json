@@ -1,0 +1,20 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express"		: "3.0.0rc4",
+	"connect-flash" : "*",
+    "jade"			: "*",
+	"chauffeur" 	: "git://github.com/jimib/nodejs-chauffeur.git#master",
+	"earlybird" 	: "git://github.com/jimib/nodejs-earlybird.git#master",
+	"extends" 		: "git://github.com/jimib/nodejs-extends.git#master",
+	"jugglingdb" 	: "git://github.com/jimib/jugglingdb.git#v0.1.27",
+	"uberclass" 	: "1.0.1",
+    "mongodb" 		: "1.1.7",
+	"socket.io" : "0.9.13"
+  }
+}
